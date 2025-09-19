@@ -1,0 +1,20 @@
+{
+	"name": "lotus-ui",
+	"private": "true",
+	"version": "1.0.0",
+	"description": "UI Library",
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"build": "pnpm -r run build",
+		"watch:core": "pnpm --filter @lotusui/core run watch"
+	},
+	"keywords": [],
+	"author": "BlueLuscious",
+	"license": "ISC",
+	"devDependencies": {
+		"tsc-watch": "^7.1.1",
+		"typescript": "^5.9.2"
+	}
+}
