@@ -3,9 +3,11 @@
 		"target": "ES2019",
 		"module": "ESNext",
 		"declaration": true,
+		"outDir": "dist",
 		"strict": true,
 		"moduleResolution": "Node",
 		"esModuleInterop": true,
-		"skipLibCheck": true
-	}
+		"skipLibCheck": true,
+	},
+	"exclude": ["node_modules"]
 }

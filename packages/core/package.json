@@ -10,5 +10,8 @@
 	},
 	"keywords": [],
 	"author": "BlueLuscious",
-	"license": "ISC"
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^24.10.1"
+	}
 }
