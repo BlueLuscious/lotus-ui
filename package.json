@@ -8,6 +8,7 @@
 	],
 	"scripts": {
 		"build": "pnpm -r run build",
+		"build:core": "pnpm --filter @lotusui/core run build",
 		"watch:core": "pnpm --filter @lotusui/core run watch"
 	},
 	"keywords": [],
