@@ -4,15 +4,14 @@
 	"description": "UI Library Core",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "watch": "tsc-watch --onSuccess 'echo Core compiled!'"
-  },
+	"scripts": {
+		"build": "tsc",
+		"watch": "tsc-watch"
+	},
 	"keywords": [],
 	"author": "BlueLuscious",
 	"license": "ISC",
-		"devDependencies": {
-		"tsc-watch": "^7.1.1",
-		"typescript": "^5.9.2"
+	"devDependencies": {
+		"@types/node": "^24.10.1"
 	}
 }
